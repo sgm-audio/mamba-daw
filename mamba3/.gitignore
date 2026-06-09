@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+mamba_env/
+
+# PyTorch / ONNX
+checkpoints/
+checkpoints_laptop/
+*.pth
+*.pt
+*.onnx
+*.onnx.data
+*.safetensors
+*.bin
+
+# Large data dirs
+datasets/
+fma/
+crepe_overlay_only/
+Mamba Based/
+
+# Logs & DB
+*.log
+experiments.db
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
